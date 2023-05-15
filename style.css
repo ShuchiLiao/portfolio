@@ -1,0 +1,112 @@
+.gradient-background {
+    background: linear-gradient(300deg, grey, white, grey);
+    background-size: 180% 180%;
+    animation: gradient-animation 15s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+
+  /* .animation {
+    background-image: url('./images/title_page.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    animation: animatedBackground 10s infinite;
+  }
+  
+  @keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 100%; }
+  } */
+
+
+
+
+
+
+  .horizontal-timeline .items {
+    border-top: 3px solid #e9ecef;
+  }
+  
+  .horizontal-timeline .items .items-list {
+    display: block;
+    position: relative;
+    text-align: center;
+    padding-top: 70px;
+    margin-right: 0;
+  }
+  
+  .horizontal-timeline .items .items-list:before {
+    content: "";
+    position: absolute;
+    height: 36px;
+    border-right: 2px dashed #dee2e6;
+    top: 0;
+  }
+  
+  .horizontal-timeline .items .items-list .event-date {
+    position: absolute;
+    top: 36px;
+    left: 0;
+    right: 0;
+    width: 75px;
+    margin: 0 auto;
+    font-size: 0.9rem;
+    padding-top: 8px;
+  }
+  
+  @media (min-width: 1140px) {
+    .horizontal-timeline .items .items-list {
+      display: inline-block;
+      width: 32%;
+      padding-top: 45px;
+    }
+  
+    .horizontal-timeline .items .items-list .event-date {
+      top: -40px;
+    }
+  }
+
+  .icon-link {
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+
+hr {
+    width: 60%;
+    border-top: 3px dashed;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Projects{
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.carousel-item .h-md-250 {
+    height: 700px;
+  }
+  
+
+.badge {
+    font-size: 15px; /* Adjust the font size as per your requirement */
+    padding: 0.25em 0.4em; /* Adjust the padding to increase or decrease the badge box size */
+  }
+
+.nav-item {
+    font-size: 0.9rem;
+}
